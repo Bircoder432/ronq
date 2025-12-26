@@ -7,6 +7,8 @@ pub struct Args {
     #[arg(long, short)]
     pub file: Option<String>,
 
+    #[arg(long, short)]
+    pub write: Option<String>,
     /// Dot-separated key path
     pub key: Option<String>,
 }
